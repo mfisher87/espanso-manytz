@@ -1,0 +1,7 @@
+name: "manytz"
+title: "Many timezones"
+description: "Expand the given time into many timezones"
+version: "0.1.0"
+author: "Matt Fisher"
+tags: ["time", "timezones"]
+homepage: "https://github.com/mfisher87/espanso-manytz"

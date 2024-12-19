@@ -1,0 +1,10 @@
+matches:
+  - regex: ";mtz\\((?P<time>.*)\\)"
+    replace: "{{result}}"
+    vars:
+      - name: "result"
+        type: "script"
+        params:
+          args:
+            - "%CONFIG%/match/packages/manytz/manytz.sh"
+            - "{{time}}"
